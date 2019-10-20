@@ -1,0 +1,10 @@
+{{>header}}
+<h1>Mustache with Spring Boot</h1>
+<div>Product List </div>
+{{#productList}}
+<b> Product Code: </b>{{code}}
+<b> Product Name: </b>{{name}}
+<b> Product Description: </b>{{description}}
+<b> Product Price: </b>{{price}}
+{{/productList}}
+{{>footer}}
